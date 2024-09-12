@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 设置钱包地址变量
-WORKER_WALLET_ADDRESS="Yg35XuZENFxEy3JcFa8rFhj2YfuyYK5fxbFeFSeWoRK"
+WORKER_WALLET_ADDRESS="HKWtcDL15qaS9quVJGhx9yta4A44kJFKQHQSDj4Bt1pM"
 
 # 获取NUMA节点的数量
 NUMA_NODES=$(lscpu | grep "NUMA node(s)" | awk '{print $3}')
